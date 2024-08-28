@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T19:35:06 IST" name="Suite" finished-at="2024-06-14T19:35:10 IST" duration-ms="4619">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T19:35:06 IST" name="Test" finished-at="2024-06-14T19:35:10 IST" duration-ms="4619">
+      <class name="com.nizna.hrm.api.employetest.ProjectTest">
+        <test-method signature="addSingleProjectWithCreatedTest()[pri:0, instance:com.nizna.hrm.api.employetest.ProjectTest@7ef82753]" started-at="2024-06-14T19:35:08 IST" name="addSingleProjectWithCreatedTest" finished-at="2024-06-14T19:35:10 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithCreatedTest -->
+        <test-method signature="createDuplicateProjectTest()[pri:0, instance:com.nizna.hrm.api.employetest.ProjectTest@7ef82753]" started-at="2024-06-14T19:35:10 IST" name="createDuplicateProjectTest" finished-at="2024-06-14T19:35:10 IST" depends-on-methods="com.nizna.hrm.api.employetest.ProjectTest.addSingleProjectWithCreatedTest" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateProjectTest -->
+      </class> <!-- com.nizna.hrm.api.employetest.ProjectTest -->
+      <class name="com.nizna.hrm.api.projecttest.EmployeTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.nizna.hrm.api.projecttest.EmployeTest@27406a17]" started-at="2024-06-14T19:35:04 IST" name="configBS" finished-at="2024-06-14T19:35:06 IST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="addEmployeeTest()[pri:0, instance:com.nizna.hrm.api.projecttest.EmployeTest@27406a17]" started-at="2024-06-14T19:35:06 IST" name="addEmployeeTest" finished-at="2024-06-14T19:35:08 IST" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method signature="addEmployeeWithOutEmailTest()[pri:0, instance:com.nizna.hrm.api.projecttest.EmployeTest@27406a17]" started-at="2024-06-14T19:35:08 IST" name="addEmployeeWithOutEmailTest" finished-at="2024-06-14T19:35:08 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeWithOutEmailTest -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.nizna.hrm.api.projecttest.EmployeTest@27406a17]" started-at="2024-06-14T19:35:10 IST" name="configAS" finished-at="2024-06-14T19:35:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.nizna.hrm.api.projecttest.EmployeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
